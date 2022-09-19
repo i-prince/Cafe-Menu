@@ -15,10 +15,18 @@ body {
     margin-right: auto;
 }
 
-.flavor {
+.flavor,
+.dessert {
     text-align: left;
+    width: 49%;
 }
 
-.price {
+.price,
+.price1 {
     text-align: right;
+    width: 50%;
+}
+
+.item p {
+display: inline-block;
 }
