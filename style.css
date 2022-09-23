@@ -3,6 +3,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h1,
 h2,
 p {
@@ -11,6 +12,7 @@ p {
 
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    padding: 20px;
 }
 
 .menu {
@@ -50,6 +52,8 @@ h2 {
 
 h1 {
     font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -60,10 +64,6 @@ hr {
     height: 2px;
     background-color: brown;
     border-color: brown;
-}
-
-body {
-    padding: 20px;
 }
 
 .item .flavor {
@@ -106,4 +106,8 @@ a:hover {
 
 a:active {
     color: grey;
+}
+
+.address {
+    margin-bottom: 5px;
 }
